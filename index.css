@@ -1,0 +1,29 @@
+.text-wrap {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: #eee;
+  overflow-y: scroll;
+}
+.text-wrap::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+.text-wrap:focus {
+  outline: none;
+}
+.random {
+  font-size: 30px;
+  color: rgb(142, 99, 190);
+}
+.button {
+  padding: 10px 20px;
+  background: #ddd;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background: #bbb;
+}
